@@ -1,0 +1,93 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#main-container {
+  border: 2px solid #888888;
+  background: #d8d8d8;
+}
+
+#map-block {
+  padding: 8px;
+}
+
+.map-left-block {
+  border: 2px solid #888888;
+  width: 65%;
+  float: left;
+  background: #d8d8d8;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+}
+
+.map-right-block {
+  border: 2px solid #888888;
+  display: inline-block;
+  margin-left:10px;
+  height: 404px;
+  background: #d8d8d8;
+}
+
+#property-block {
+  padding: 8px;
+}
+
+#property-block ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#property-block ul li {
+  background: #888888;
+  padding: 5px 40px;
+  margin: 10px 0 0 0;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .map-right-block {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .map-left-block {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .map-right-block {
+    width: 33%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1115px) {
+  .map-right-block {
+    margin-right: 13px;
+    margin-left: 13px;
+    width: 32%;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .map-right-block {
+    width: 34%;
+  }
+}
+
+
+
+
+#map {  }
+
